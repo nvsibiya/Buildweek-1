@@ -1,0 +1,264 @@
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 16px;
+  
+}
+
+/* Style the links inside the navigation bar */
+.bottomnav-centered a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.container a {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+.bottomnav-centered a:hover {
+  border-bottom: 3px solid green;
+}
+
+.bottomnav-centered a.active {
+  border-bottom: 3px solid green;
+  
+}
+
+body{
+  background-color: #181818;
+  font-family: proxima-nova, sans-serif;
+  color: white;
+  padding-right: 2rem;
+}
+
+.background-image {
+  position: fixed;
+  width: 100%;
+}
+ 
+
+/*---------------------------*/
+.container {
+  background: #f9f9f9;
+}
+
+.flex-column {
+  max-width: 260px;
+}
+
+.img-fluid {
+  margin: 8px;
+  max-width: 180px;
+  max-height: 190px;
+  
+}
+
+.scale {
+  transform: scaleY(1.05);
+  padding-top: 5px; 
+}
+/*---------------------------*/
+
+.leftCol{
+    background-color: black;
+    color: white;
+    width: 190px;
+    height: 925px; 
+    float: left;
+}
+
+.tbt{
+    font-weight: 700;
+    color: white;
+    font-size:2rem;
+    padding-left: 3.9rem;
+    margin-bottom: 1rem;
+}
+
+.images-row {
+  padding-left : 3rem;
+  padding-right: 4rem;
+}
+    
+.infoImg{
+    color: white;
+    text-align: center;
+    font-size: 0.65rem; 
+    padding-top: 0.65rem;
+    font-weight: bold;
+}
+
+.listOfPages{
+    color: gainsboro;
+}
+
+.listOfPages:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: yellowgreen;
+}
+    
+.footer{
+    margin-top: 214px;
+    height: 80px;
+    background-color: rgb(41, 41, 41);
+}
+
+  .side-nav-class {
+
+    position: fixed;
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: #9A9A9A;
+  }
+  .side-nav-class ul{
+    list-style: none;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .side-nav-class li {    
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-start; 
+  }
+  .side-nav-class li:not(#bottom-li) {    
+    padding-bottom: 1rem;  
+  }
+  .logo-class{
+    text-align: center;
+    margin-right: 60px;
+    padding-bottom: 1rem;
+  }
+  .bottom-ul{
+    font-family: proxima-nova, sans-serif;
+    font-weight: bold;
+    font-style: normal; 
+    font-size: 0.1rem;
+  }
+  .bottom-li{
+    
+    display: flex;
+    align-items: center;
+  }
+
+  .sidenav-icons{
+    flex: 0 0 2.5rem;
+  }
+  .side-nav-class a{
+    color: #9A9A9A;   
+    font-family: proxima-nova, sans-serif;
+    font-weight: bold;
+    font-style: normal; 
+  }
+
+  .function-bar{
+   background-color: #282828;
+   width: 100%;
+   height: 60px;
+   position: fixed;
+   bottom: 0;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-end;
+   padding-right: 2rem;
+   z-index: 1000;
+  }
+ .first-section{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+ }
+ .second-section{
+ display: block;
+ }
+ .second-section-icons{
+   padding: 0 9rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+ }
+  .playing-song{
+   padding-left: 0.8rem;
+   color: white;
+ }
+ .functions-icons{
+   color: white;
+   padding-left: 1rem;
+ }
+ .horizontal-line{
+   width: 500px;
+   height: 3px;
+   background-color: #9A9A9A;
+   border-radius: 2px;
+ }
+ .third-section{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-end;
+
+ }
+ .thirdsection-horizontal-line{
+    width: 50px;
+    height: 3px;
+    background-color: #9A9A9A;
+    border-radius: 2px;
+ }
+ .fa-random{
+  font-size: 0.5rem;
+ }
+ .fa-redo-alt{
+  font-size: 0.5rem;
+ }
+ .fa-forward,.fa-backward{
+  font-size: 0.7rem;
+ }
+ .fa-play-circle{
+   font-size: 1.5rem;
+ }
+
+ /* additions */
+ .row{
+   margin: 0 !important;
+ }
+ /* .tbt{
+  padding-left: 9rem;
+ } */
+ .images-row{
+   padding-left: 3rem;
+   padding-right: 4rem;
+ }
+  .custom-progress-bar{
+  display: flex;
+  flex-direction: row;
+  font-size: 0.5rem;
+  align-items: center;
+}
